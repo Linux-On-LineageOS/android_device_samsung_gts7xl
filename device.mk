@@ -50,3 +50,4 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:
 
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7xl/gts7xl-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
